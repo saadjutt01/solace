@@ -21843,7 +21843,7 @@ select.form-control {
     color: #0f4c81;
 }
 
-.nav .nav-item.current-nav-item > .dropdown-icon [class*='fa-'], .nav .nav-item.active > .dropdown-icon [class*='fa-'] {
+.nav .nav-item.current-nav-item > .dropdown-icon [class*="fa-"], .nav .nav-item.active > .dropdown-icon [class*="fa-"] {
     color: #0f4c81;
 }
 
@@ -21898,7 +21898,6 @@ select.form-control {
 #header nav.menu-primary ul.nav li.nav-item > a {
     position: relative;
     color: #060606;
-    text-transform: uppercase;
 }
 
 #header nav.menu-primary ul.nav li.nav-item > .dropdown-custom-icon .dropdown-icon {
@@ -27328,6 +27327,8 @@ body:not(.elementor-page) #page-content .content img {
 .clients {
     padding-top: 5.632rem;
     padding-bottom: 5.632rem;
+    padding-top: 3.632rem;
+    padding-bottom: 3.632rem;
 }
 
 .clients .clients-items {
